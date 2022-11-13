@@ -16,7 +16,7 @@ html, body{
     margin: 0 5px;
 }
 
-.ul-nav > li > img{
+.ul-nav > li > a > img{
     width: 25px;
     height: 25px;
 }
