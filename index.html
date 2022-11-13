@@ -6,8 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santiago Leza</title>
     <link rel="stylesheet" href="style.css">
+    <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="row row-cols-1 row-cols-md-1 g-4">
+        <div class="col">
+            <div class="card container main-container" style="margin-top: 25px; border-radius: 1rem; overflow: hidden;">
+                <img class="card-top-img" src="assets/banner.jpg" alt="banner" style="object-fit: contain; width: 100%;">
+                <img class="yo rounded-circle card-img-overlay" src="assets/yo.jpg" alt="Santiago Leza">
+                <ul class="ul-nav card-img-overlay">
+                    <li><img src="assets/facebook.png" alt="facebook"></li>
+                    <li><img src="assets/instagram.png" alt="instagram"></li>
+                    <li><img src="assets/twitter.png" alt="twitter"></li>
+                </ul>
+                <div class="card-body">
+                    <h1 class="card-title">Santiago Leza</h1>
+                    <p class="card-text">Tecnico universitario en programación</p>
+                    <p class="card-text">Mar del plata (Argentina)<a style="text-decoration: none; margin-left: 5px;" class="card-link" href="#">Informacion de contacto</a></p>
+                    <a href="#" class="btn btn-primary">Tengo interes en</a>
+                    <a href="#" class="btn btn-light">Añadir Sección</a>
+                    <a href="#" class="btn btn-light">Más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card container" style="border-radius: 1rem;">
+                <h3 class="card-title">Acerca de</h3>
+                <p class="card-text">
+                    Estudiante de la carrera de tecnico universitario en programación en la Universidad Técnica Nacional de Mar del Plata. Conocimientos full stack y muchas ganas de aprender.
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card container" style="border-radius: 1rem;">
+                <h3 class="card-text">Educación</h3>
+                <div class="card flex-row" style="border: none;">
+                    <img class="card-left-img" src="assets/utn.jpg" alt="utn" style="width: 7%;">
+                    <div>
+                        <h5 class="card-title">UTN Mar del Plata</h5>
+                        <p class="card-text">Tecnico universitario en programación</p>
+                        <p class="card-text">2020 - 2022</p>
+                    </div>
+                </div>
+                <div class="card flex-row" style="border: none;">
+                    <img class="card-left-img" src="assets/argprog.png" alt="utn" style="width: 7%;">
+                    <div>
+                        <h5 class="card-title">Argentina Programa</h5>
+                        <p class="card-text">Programador</p>
+                        <p class="card-text">2022 - 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card container" style="border-radius: 1rem;">
+                <h3 class="card-text">Proyectos</h3>
+                <div class="card" style="border: none;">
+                    <a href="https://github.com/SantiagoLeza/PetHero" class="card-title" style="text-decoration: none;"><h5>Pet Hero</h5></a>
+                    <p class="card-text">Sitio web desarrollado en php como trabajo practico final de Programacion IV. Es una página la cual brinda opciones para el cuidado de mascotas</p>
+                </div>
+                <div class="card" style="border: none;">
+                    <a href="https://github.com/SantiagoLeza/sp0t1fy" class="card-title" style="text-decoration: none;"><h5>sp0t1fy</h5></a>
+                    <p class="card-text">Clon funcional de Spotify. Permite el inicio de sesion con tu cuenta personal y la reproduccion de musica y podcast de tus listas en otro dispositivo</p>
+                </div>
+                <div class="card" style="border: none;">
+                    <a href="https://github.com/SantiagoLeza/notes-app" class="card-title" style="text-decoration: none;"><h5>Anotador</h5></a>
+                    <p class="card-text">Sitio web para realizar notas. Desarrollado en React.</p>
+                </div>
+                <div class="card" style="border: none;">
+                    <a href="https://github.com/SantiagoLeza/TP-PedidosYa" class="card-title" style="text-decoration: none;"><h5>Pedidos Ya</h5></a>
+                    <p class="card-text">Aplicacion de escritorio desarrollada en Java como trabajo practico final de Programacion III. Es una aplicacion que brinda opciones de pedido de comida a domicilio</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
